@@ -58,3 +58,23 @@ print(list.index('Brie'))
 
 list.reverse()
 print(list)
+
+set1 = { 5, 6, 7, 8, 9}
+set2 = {10, 11, 12, 13}
+print(set1)
+print(set2)
+
+set1.remove(9)
+print(set1)
+set2.add(9)
+print(set2)
+print(len(set2))
+
+# Explpoiting sets?
+#list4 = [1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5]
+#list4 = ["cat", "dog", "cat", "dog"]
+#list4 = list(set(list4))
+#print(list4)
+
+
+
