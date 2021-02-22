@@ -7,9 +7,9 @@ cheese.extend(['melted', 'grated'])
 print(cheese)
 
 tup = "Hello"
-print(len(tup))
+print('The length of this string is', len(tup))
 
 tup = "Hello",
-print(len(tup))
+print('The length of of this tuple is', len(tup))
 
 # the first tup is a string with 5 elements, the second tup is a tuple with one element

@@ -1,9 +1,9 @@
 str = 'Norwegian Blue', "Mr Khan's Bike"
 list = ['cheddar', ['Camembert', 'Brie'], 'Stilton', 'Brie', 'Brie']
-tuples = (47, 'spam','Major', 638, 'Ovine Aviation')
+tuples = (47, 'spam', 'Major', 638, 'Ovine Aviation')
 tuples2 = (36, 29, 63)
 set = {'cheeseburger', 'icecream', 'chicken nuggets'}
-dict = {'Totness' : 'Barber', 'BritishColumbia' : 'Lumberjack'}
+dict = {'Totness': 'Barber', 'BritishColumbia': 'Lumberjack'}
 
 print(len(list))
 print(min(tuples2))
@@ -13,9 +13,9 @@ print(sum(tuples2))
 a = 'Mash Potato'
 b = 'Gravy'
 
-print(a,b)
-a,b = b, a
-print(a,b)
+print(a, b)
+a, b = b, a
+print(a, b)
 
 Gouda, Edam, Caithness = range(3)
 print(range)
@@ -24,7 +24,7 @@ Belgium = 'Belgium,10445852,Brussels,737966,Europe,1830,Euro,Catholicism,Dutch,F
 Belgium2 = Belgium*2
 print(Belgium2)
 
-thing = ('Hello')
+thing = 'Hello'
 print(type(thing))
 thing = ('Hello',)
 print(type(thing))
@@ -59,7 +59,7 @@ print(list.index('Brie'))
 list.reverse()
 print(list)
 
-set1 = { 5, 6, 7, 8, 9}
+set1 = {5, 6, 7, 8, 9}
 set2 = {10, 11, 12, 13}
 print(set1)
 print(set2)
@@ -69,8 +69,8 @@ print(set1)
 set2.add(9)
 print(set2)
 print(len(set2))
-
-# Explpoiting sets?
+#TODO
+# Exploiting sets?
 #list4 = [1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5]
 #list4 = ["cat", "dog", "cat", "dog"]
 #list4 = list(set(list4))
