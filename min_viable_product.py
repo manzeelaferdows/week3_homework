@@ -2,12 +2,9 @@ import random
 
 help(random)
 
-lotto_numbers = []
-for i in range(0, 6):
-    number = random.randint(1, 50)
-    while number in lotto_numbers:
-        number = random.randint(1, 50)
-    lotto_numbers.append(number)
+lotto_numbers = set()
+while len(lotto_numbers) < 6:
+        lotto_numbers.add(random.randint(1, 50))
 print(lotto_numbers)
 
 # use a while loop (not a for loop) and make a set containing the lotto numbers
